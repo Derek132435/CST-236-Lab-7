@@ -1,0 +1,156 @@
+#0001 The system shall be able to determine if a triangle is scalene, equilateral or isosceles
+ test_get_triangle_equilateral_all_int,
+ test_get_triangle_equilateral_dict,
+ test_get_triangle_equilateral_list,
+ test_get_triangle_equilateral_tuple,
+ test_get_triangle_isosceles_all_int,
+ test_get_triangle_isosceles_neg,
+ test_get_triangle_scalene_all_float,
+ test_get_triangle_scalene_all_int,
+
+#0002 The system shall accept three triangle sides as length in either float or integers
+ test_get_triangle_equilateral_all_int,
+ test_get_triangle_equilateral_dict,
+ test_get_triangle_equilateral_list,
+ test_get_triangle_equilateral_tuple,
+ test_get_triangle_invalid_all_char,
+ test_get_triangle_isosceles_all_int,
+ test_get_triangle_isosceles_neg,
+ test_get_triangle_scalene_all_float,
+ test_get_triangle_scalene_all_int,
+
+#0003 The system shall be able to determine the type of quadrilateral based on 4 sides and 4 angles
+ test_get_quadrilateral_disconnected_all_int,
+ test_get_quadrilateral_rectangle_all_int,
+ test_get_quadrilateral_rhombus_all_float,
+ test_get_quadrilateral_rhombus_all_int,
+ test_get_quadrilateral_square_all_float,
+ test_get_quadrilateral_square_all_int,
+ test_get_quadrilateral_square_char,
+ test_get_quadrilateral_square_dict,
+ test_get_quadrilateral_square_list,
+ test_get_quadrilateral_square_neg,
+ test_get_quadrilateral_square_tuple,
+
+#0004 The system shall accept quadrilateral sides as floats or integers
+ test_get_quadrilateral_disconnected_all_int,
+ test_get_quadrilateral_rectangle_all_int,
+ test_get_quadrilateral_rhombus_all_float,
+ test_get_quadrilateral_rhombus_all_int,
+ test_get_quadrilateral_square_all_float,
+ test_get_quadrilateral_square_all_int,
+ test_get_quadrilateral_square_char,
+ test_get_quadrilateral_square_dict,
+ test_get_quadrilateral_square_list,
+ test_get_quadrilateral_square_neg,
+ test_get_quadrilateral_square_tuple,
+
+#0005 The system shall accept quadrilateral angles as floats or integers
+ test_get_quadrilateral_disconnected_all_int,
+ test_get_quadrilateral_rectangle_all_int,
+ test_get_quadrilateral_rhombus_all_float,
+ test_get_quadrilateral_rhombus_all_int,
+ test_get_quadrilateral_square_all_float,
+ test_get_quadrilateral_square_all_int,
+ test_get_quadrilateral_square_char,
+ test_get_quadrilateral_square_dict,
+ test_get_quadrilateral_square_list,
+ test_get_quadrilateral_square_neg,
+ test_get_quadrilateral_square_tuple,
+
+#0006 The system shall accept questions in the form of strings and attempt to answer them
+ test_ask_no_question_mark,
+ test_ask_not_string,
+ test_ask_quadrilateral_no_answer,
+ test_ask_triangle_no_answer,
+
+#0007 The system shall answer questions that begin with one of the following valid question keywords: "How", "What", "Where", "Why" and "Who"
+ test_ask_quadrilateral_no_answer,
+ test_ask_quadrilateral_no_keyword,
+ test_ask_triangle_no_answer,
+ test_ask_triangle_no_keyword,
+
+#0008 If the system does not detect a valid question keyword it shall return "Was that a question?"
+ test_ask_quadrilateral_no_keyword,
+ test_ask_triangle_no_keyword,
+
+#0009 If the system does not detect a question mark at end of the string it shall return "Was that a question?"
+ test_ask_no_question_mark,
+
+#0010 The system shall break a question down into words separated by space
+ test_ask_quadrilateral_square,
+ test_ask_triangle_isosceles,
+
+#0011 The system shall determine an answer to a question as a correct if the keywords provide a 90% match and return the answer
+ test_ask_bad_question,
+
+#0012 The system shall exclude any number value from match code and provide the values to generator function (if one exists)
+ test_ask_no_values,
+
+#0013 When a valid match is determined the system shall return the answer
+ test_ask_quadrilateral_square,
+ test_ask_triangle_isosceles,
+
+#0014 When no valid match is determined the system shall return "I don't know, please provide the answer"
+ test_ask_bad_question,
+ test_ask_no_values,
+
+#0015 The system shall provide a means of providing an answer to the previously asked question.
+ test_ask_correct_quadrilateral,
+ test_ask_correct_triangle,
+ test_ask_no_teach,
+ test_ask_teach_no_previous_question,
+ test_ask_teach_previous_answer,
+
+#0016 The system shall accept and store answers to previous questions in the form of a string or a function pointer and store it as the generator function.
+ test_ask_correct_quadrilateral,
+ test_ask_correct_triangle,
+ test_ask_no_teach,
+ test_ask_teach_no_previous_question,
+ test_ask_teach_previous_answer,
+
+#0017 If no previous question has been asked the system shall respond with "Please ask a question first"
+ test_ask_teach_no_previous_question,
+
+#0018 If an attempt is made to provide an answer to an already answered question the system shall respond with "I don\'t know about that. I was taught differently" and not update the question
+ test_ask_no_teach,
+
+#0019 The system shall provide a means of updating an answer to the previously asked question.
+ test_ask_correct_quadrilateral,
+ test_ask_correct_triangle,
+
+#0020 The system shall accept and store answers to previous questions in the form of a string or a function pointer and store it as the generator function.
+ test_ask_correct_quadrilateral,
+ test_ask_correct_triangle,
+ test_ask_no_teach,
+ test_ask_teach_no_previous_question,
+ test_ask_teach_previous_answer,
+
+#0021 If no previous question has been asked the system shall respond with "Please ask a question first"
+ test_ask_teach_no_previous_question,
+
+When I ask "What time is it?" I want to be given the current date/time so I can stay up to date
+ test_job_story_case_date_and_time,
+When I ask "What is the n digit of fibonacci" I want to receive the answer so I don't have to figure it out myself
+ test_job_story_case_fib,
+When I ask "What is the n digit of pi" I want to receive the answer so I don't have to figure it out myself
+ test_job_story_case_get_pi,
+When I ask "Please clear memory" I want the application to clear user set questions and answers so I can reset the application
+ test_job_story_case_clear_memory,
+When I say "Open the door hal", I want the application to say "I'm afraid I can't do that <user name>" so I know that is not an option
+ test_job_story_case_hal_at_the_door,
+When I ask "Convert <number> <units> to <units>" I want to receive the converted value and units so I can know the answer.
+ test_job_story_case_convert_units,
+When I ask for a numeric conversion I want at least 10 different units I can convert from/to
+ test_job_story_case_ten_conversions,
+When I ask "What is the meaning of life, the universe, and everything?" I want to be given the answer so that I know what to do with my life
+ test_job_story_case_meaning_of_life,
+When I ask "What is this computers hostname?" I want to be given the answer so that I know which computer I am using
+ test_job_story_case_computer_name,
+When I ask "What questions can you answer?" I want the system to tell me so that I know what I can do with it.
+ test_job_story_case_stored_questions,
+When I ask "What shape has n sides?" I want to receive an answer to help with my geometry homework
+ test_job_story_case_number_of_sides,
+When I ask "What should I keep in mind today?" I want to receive a random fortune so that I can feel better
+ test_job_story_case_random_fortune,
+What is the absolute value of -6?What is the absolute value of -6?What are the possible caesar shifts of rdxjhwjyufxxbtwi?What are the possible caesar shifts of rdxjhwjyufxxbtwi?What is 'mysecretpassword' in a 5 level caesar cipher?What is 'mysecretpassword' in a 5 level caesar cipher?What is the 16 digit of pi?Will you please clear memory?What is the 16 digit of pi?What is this computer's hostname?What is this computer's hostname?Convert 5 centimeters to millimetersWhat time is it?What time is it?How many days until Christmas?How many days until Christmas?What is the 5 digit of fibonacci?What is the 5 digit of fibonacci?What is the 0 digit of fibonacci?What is the 0 digit of fibonacci?What is the 16 digit of pi?What is the 16 digit of pi?Will you open the door hal?Will you open the door hal?What is the output of 1 OR 0?What is the output of 1 OR 0?What is the meaning of life, the universe, and everything?What is the meaning of life, the universe, and everything?What shape has 5 sides?What shape has 5 sides?What should I keep in mind today?What should I keep in mind today?Convert 1 gigameters to megametersConvert 1 kilometers to hectometersConvert 1 dekameters to metersConvert 1 decimeters to centimetersConvert 1 millimeters to micrometersConvert 1 micrometers to nanometersWhat kind of shape has sides 1 1 3?What type of quadrilateral is  1 1 1 1 90 90 90 90?What type of triangle is  1 1 1?What type of triangle is isoscelesWhat type of triangle is  1 1 1?What type of triangle is this?How many sides does a quadrilateral have?many sides does a quadrilateral have?What type of quadrilateral is 1 1 1 1 90 90 90 90?What type of triangle is 1 1 3?What type of quadrilateral is  1 1 1 1 90 90 90 90 5?What type of triangle is 1 1 3?What type of triangle is isosceles?many sides does a triangle have?What is the deal with <requirements.txt>?What is the status of <requirements.txt>?What branch is <requirements.txt>?What is root of <requirements.txt>?Where did <requirements.txt> come from?Is the <awesomesauce.txt> in the repo?Is the <requirements.txt> in the repo?What is the status of <awesomesauce.txt>?What is the status of <requirements.txt>?

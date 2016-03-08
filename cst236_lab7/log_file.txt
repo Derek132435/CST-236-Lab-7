@@ -1,0 +1,102 @@
+What is the absolute value of -6?: Unknown question
+What is the absolute value of -6?: 6
+How many days until Christmas?: Unknown question
+How many days until Christmas?: 293
+What is the 16 digit of pi?: Unknown question
+Will you please clear memory?: Unknown question
+What is the 16 digit of pi?: Unknown question
+Convert 5 centimeters to millimeters: 50.0 millimeters
+What are the possible caesar shifts of rdxjhwjyufxxbtwi?: Unknown question
+What are the possible caesar shifts of rdxjhwjyufxxbtwi?: 
+rdxjhwjyufxxbtwi
+seykixkzvgyycuxj
+tfzljylawhzzdvyk
+ugamkzmbxiaaewzl
+vhbnlancyjbbfxam
+wicombodzkccgybn
+xjdpncpealddhzco
+ykeqodqfbmeeiadp
+zlfrpergcnffjbeq
+amgsqfshdoggkcfr
+bnhtrgtiephhldgs
+coiushujfqiimeht
+dpjvtivkgrjjnfiu
+eqkwujwlhskkogjv
+frlxvkxmitllphkw
+gsmywlynjummqilx
+htnzxmzokvnnrjmy
+iuoaynaplwoosknz
+jvpbzobqmxpptloa
+kwqcapcrnyqqumpb
+lxrdbqdsozrrvnqc
+mysecretpassword
+nztfdsfuqbttxpse
+oaugetgvrcuuyqtf
+Will you open the door hal?: Unknown question
+Will you open the door hal?: I'm afraid I can't do that Derek
+What is 'mysecretpassword' in a 5 level caesar cipher?: Unknown question
+What is 'mysecretpassword' in a 5 level caesar cipher?: rdxjhwjyufxxbtwi
+What is the 5 digit of fibonacci?: Unknown question
+What is the 5 digit of fibonacci?: 34
+What is the 0 digit of fibonacci?: 34
+What is the 0 digit of fibonacci?: 0
+What should I keep in mind today?: Unknown question
+What should I keep in mind today?: What is today but yesterday's tomorrow?
+What is the 16 digit of pi?: Unknown question
+What is the 16 digit of pi?: 3
+What is the output of 1 OR 0?: Unknown question
+What is the output of 1 OR 0?: 1
+What is the meaning of life, the universe, and everything?: Unknown question
+What is the meaning of life, the universe, and everything?: 42
+What is this computer's hostname?: Unknown question
+What is this computer's hostname?: BlueBeast
+What shape has 5 sides?: Unknown question
+What shape has 5 sides?: pentagon
+Convert 1 gigameters to megameters: 1000.0 megameters
+Convert 1 kilometers to hectometers: 10.0 hectometers
+Convert 1 dekameters to meters: 10.0 meters
+Convert 1 decimeters to centimeters: 10.0 centimeters
+Convert 1 millimeters to micrometers: 1000.0 micrometers
+Convert 1 micrometers to nanometers: 1000.0 nanometers
+What time is it?: Unknown question
+What time is it?: Current date and time: 2016-03-07 18:53
+What is 'mysecretpassword' in a 23 level caesar cipher?: Unknown question
+What is 'mysecretpassword' in a 23 level caesar cipher?: jvpbzobqmxpptloa
+What is 'mysecretpassword' in a 5 level caesar cipher?: Unknown question
+What is 'mysecretpassword' in a 5 level caesar cipher?: rdxjhwjyufxxbtwi
+What is the 1000 digit of fibonacci?: Unknown question
+What is the 1000 digit of fibonacci?: 43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875
+What is the 500 digit of fibonacci?: Unknown question
+What is the 500 digit of fibonacci?: 139423224561697880139724382870407283950070256587697307264108962948325571622863290691557658876222521294125
+What type of triangle is 1 1 3?: isosceles
+What is the output of 1 AND 0?: Unknown question
+What is the output of 1 AND 0?: 0
+What is the output of 1 OR 0?: Unknown question
+What is the output of 1 OR 0?: 1
+What shape has 14 sides?: Unknown question
+What shape has 14 sides?: tetradecagon
+What shape has 5 sides?: Unknown question
+What shape has 5 sides?: pentagon
+What time is it?: Unknown question
+What is the deal with <requirements.txt>?: requirements.txt
+What branch is <requirements.txt>?: requirements.txt
+What is root of <requirements.txt>?: requirements.txt
+Where did <requirements.txt> come from?: requirements.txt
+What is the status of <requirements.txt>?: requirements.txt is a dirty repo
+Is the <awesomesauce.txt> in the repo?: No
+Is the <requirements.txt> in the repo?: Yes
+What is the status of <awesomesauce.txt>?: What is the status of <requirements.txt>?: requirements.txt is up to date
+What kind of shape has sides 1 1 3?: Unknown question
+What type of quadrilateral is  1 1 1 1 90 90 90 90?: square
+What type of triangle is  1 1 1?: equilateral
+What type of triangle is isosceles: no answer
+What type of triangle is  1 1 1?: equilateral
+What type of triangle is this?: invalid
+12: Exception: Not a String
+How many sides does a quadrilateral have?: Unknown question
+many sides does a quadrilateral have?: no answer
+What type of quadrilateral is 1 1 1 1 90 90 90 90?: square
+What type of triangle is 1 1 3?: isosceles
+What type of quadrilateral is  1 1 1 1 90 90 90 90 5?: What type of triangle is 1 1 3?: isosceles
+What type of triangle is isosceles?: Unknown question
+many sides does a triangle have?: no answer
