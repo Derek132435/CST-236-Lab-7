@@ -41,7 +41,7 @@ class TestGetTime(TestCase):
         end = time.clock()
         result = (end - start)
         print result
-        assert result <= 0.005
+        assert result <= 0.010
 
     @requirements(['#0054'])
     def test_performance_fibonacci_500(self):
@@ -56,7 +56,7 @@ class TestGetTime(TestCase):
         inquiry.ask("What is the 500 digit of fibonacci?")
         end = time.clock()
         result = (end - start)
-        assert result <= 0.005
+        assert result <= 0.010
 
     @requirements(['#0054'])
     def test_performance_fibonacci_1000(self):
@@ -71,7 +71,7 @@ class TestGetTime(TestCase):
         inquiry.ask("What is the 1000 digit of fibonacci?")
         end = time.clock()
         result = (end - start)
-        assert result <= 0.005
+        assert result <= 0.010
 
     @requirements(['#0055'])
     def test_performance_shape_sides_5(self):
@@ -86,7 +86,7 @@ class TestGetTime(TestCase):
         inquiry.ask("What shape has 5 sides?")
         end = time.clock()
         result = (end - start)
-        assert result <= 0.005
+        assert result <= 0.010
 
     @requirements(['#0055'])
     def test_performance_shape_sides_14(self):
@@ -101,7 +101,7 @@ class TestGetTime(TestCase):
         inquiry.ask("What shape has 14 sides?")
         end = time.clock()
         result = (end - start)
-        assert result <= 0.005
+        assert result <= 0.010
 
     @requirements(['#0056'])
     def test_performance_caesar_5(self):
@@ -116,7 +116,7 @@ class TestGetTime(TestCase):
         inquiry.ask("What is 'mysecretpassword' in a 5 level caesar cipher?")
         end = time.clock()
         result = (end - start)
-        assert result <= 0.008
+        assert result <= 0.010
 
     @requirements(['#0056'])
     def test_performance_caesar_23(self):
@@ -131,7 +131,7 @@ class TestGetTime(TestCase):
         inquiry.ask("What is 'mysecretpassword' in a 23 level caesar cipher?")
         end = time.clock()
         result = (end - start)
-        assert result <= 0.008
+        assert result <= 0.010
 
     @requirements(['#0057'])
     def test_performance_logic_or(self):
@@ -146,7 +146,7 @@ class TestGetTime(TestCase):
         inquiry.ask("What is the output of 1 OR 0?")
         end = time.clock()
         result = (end - start)
-        assert result <= 0.008
+        assert result <= 0.010
 
     @requirements(['#0057'])
     def test_performance_logic_and(self):
@@ -161,4 +161,4 @@ class TestGetTime(TestCase):
         inquiry.ask("What is the output of 1 AND 0?")
         end = time.clock()
         result = (end - start)
-        assert result <= 0.008
+        assert result <= 0.010
