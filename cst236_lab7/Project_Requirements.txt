@@ -22,11 +22,11 @@
 #0050 When asked a question the system shall output the question to a log file
 #0051 When asked a question the system shall output the answer to a log file
 #0052 The system shall output questions and answers to the log file in under 50 ms
-#0053 When asked "What time is it?" the system shall return the answer in under 10 ms
-#0054 When asked "What is the n digit of fibonacci?" the system shall return the answer in under 10 ms if n <= 1000
-#0055 When asked "What shape has n sides?" the system shall return the answer in under 10 ms
-#0056 When asked "What is x in an n level caesar cipher?" the system shall return the answer in under 10 ms if n <= 24
-#0057 When asked "What is the output of x gate y?" the system shall return the answer in under 10 ms
+#0053 When asked "What time is it?" the system shall return the answer in under 15 ms
+#0054 When asked "What is the n digit of fibonacci?" the system shall return the answer in under 15 ms if n <= 1000
+#0055 When asked "What shape has n sides?" the system shall return the answer in under 15 ms
+#0056 When asked "What is x in an n level caesar cipher?" the system shall return the answer in under 15 ms if n <= 24
+#0057 When asked "What is the output of x gate y?" the system shall return the answer in under 15 ms
 #0100 The system shall return 'Yes' or 'No' when asked 'Is the <file path> in the repo?'
 #0101 The system shall return one of the following when asked 'What is the status of <file path>?' - <file path> has been modified locally - <file path> has not been checked in - <file path> is a dirty repo - <file path> is up to date
 #0102 The system shall return '<hash>, <date modified>, <author>' when asked 'What is the deal with <file path>?'
